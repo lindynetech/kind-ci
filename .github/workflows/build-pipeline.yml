@@ -3,8 +3,8 @@ name: Docker Image CI
 on: [push]
      # Environment variables available to all jobs and steps in this workflow
 env: # Or as an environment variable
-      docker_username: ${{ secrets.DOCKER_USER }}
-      docker_password: ${{ secrets.DOCKER_PW }}
+      docker_username: ${{ secrets.DOCKERHUB_USER }}
+      docker_password: ${{ secrets.DOCKERHUB_PW }}
 
 jobs:
 
